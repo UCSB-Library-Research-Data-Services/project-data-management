@@ -11,6 +11,8 @@ website:
         text: Planning
       - href: manage.qmd
         text: Managing
+      - href: about.qmd
+        text: "About RDS"
     tools:
       - icon: github
         menu:
