@@ -49,3 +49,6 @@ po/*~
 rsconnect/
 
 /.quarto/
+
+# rendered version of the website (will be done via GH actions)
+_site/
