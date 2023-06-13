@@ -6,9 +6,8 @@ In a nutshell, **your goal as a Data Manager is to organize your team in a way t
 
 Having a plan to manage your data will save you from some potential painful hiccups and therefore save you time s your progress through your project data life cycle. In other words, it is time well spent to develop your data management plan. Note that the team discussion necessary to develop you plan is as important as the plan itself as the questions you will have to answer will help you to think more about your data (what type, how much of it, how are you going to process it,...) and also define who is going to do what on your team.
 
-![Research Data Management lifecycle; source: <https://osf.io/d8fqh>](images/data_lifecycle_rdm.png)
 
-In the end, the goal is to archive your data in a data repository such as [Dryad](https://datadryad.org/stash). Here is an example of a previous group archive: https://doi.org/10.25349/D97G9Z -- especially look at the README describing the content.
+In the end, the goal is to archive your data in a data repository such as [Dryad](https://datadryad.org/stash). Here is an example of a previous group archive: <https://doi.org/10.25349/D97G9Z> -- especially look at the README describing the content.
 
 
 ## Developing your Data Management Plan (DMP)
