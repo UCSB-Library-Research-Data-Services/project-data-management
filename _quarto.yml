@@ -11,6 +11,8 @@ website:
         text: Planning
       - href: manage.qmd
         text: Managing
+      - href: preserve.qmd
+        text: Preserving
       - href: about.qmd
         text: "About RDS"
     tools:
