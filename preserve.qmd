@@ -3,4 +3,23 @@ title: "Archivng and preserving your data"
 ---
 
 
+As you are finalizing your project, and important step is going to archive your data in a publicly available repository (pending sensitivity and by non-disclosure agreements exceptions).
 
+
+## Choosing a data repository
+
+UCSB's institutional data repository [DRYAD](https://datadryad.org/stash) will be your default data repository. However discuss with your Faculty advisor to determine if other options could be appropriate for your project. 
+
+
+## Choosing a license
+
+
+
+## Preserving your scripts
+
+If you developed code to conduct your research you will want to upload it to a code repository such as GitHub. Once done, you will be able to link you code repository to your data archive in Dryad by adding the URL.
+
+
+## Preserving other scientific products
+
+Zeonod integration
