@@ -43,7 +43,7 @@ There is a tool that you can use to guide your process: **the DMP Tool**. It is 
 
 </iframe>
 
--   Guidelines on how to use the Data Management Tool to develop your plan: <https://doi.org/10.5281/zenodo.7566971>
+-   Guidelines on how to use the Data Management Tool to develop your plan: *Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.* <https://doi.org/10.5281/zenodo.7566971>
 
 -   Get started with the tool: <http://dmptool.org/>\
     *Make sure to create an account using your UCSB email!*
@@ -54,5 +54,7 @@ There is a tool that you can use to guide your process: **the DMP Tool**. It is 
 Ok, you have a plan, and now what!?  **A data management plan should be seen as a living document** that you update as your project develops and data needs evolve. We thus recommend sharing this plan with all your team members and external partners when relevant. The DMP Tool has the capacity to share plans directly from the tool. If you do not choose to use it, we recommend choosing a file format that can be collectively edited and provide some versioning / track changes, such as Google Docs or other cloud-based storage and documents.
 
 
+## Further Reading Recommendations
 
+- Good overview of Data management concepts:  *Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala. (2023). Introduction to Research Data Management for Researchers. Data Curation Network* [Primer for Researchers on how to Manage Data](https://github.com/DataCurationNetwork/data-primers/blob/master/Primer%20for%20Researchers%20on%20How%20to%20Manage%20Data/Primer-for-researchers-on-how-to-manage-data.md#data-management-and-curation-principles) 
 
