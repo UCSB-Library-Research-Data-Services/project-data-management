@@ -12,7 +12,7 @@ Your overarching goal is to archive and share your data in a publicly accessible
 
 Before writing your plan, we recommend you get familiar with the [FAIR](https://www.go-fair.org/fair-principles/) and [CARE](https://www.gida-global.org/care) principles to guide your process.
 
-![source: <https://www.gida-global.org/care>](images/be-FAIR-and-CARE.png)
+![source: <https://www.gida-global.org/care>](images/be-FAIR-and-CARE.png){width=80% fig-align="left"}
 
 
 ## Developing your Data Management Plan (DMP)
@@ -47,7 +47,7 @@ There is a tool that you can use to guide your process: **the DMP Tool**. It is 
 
 </iframe>
 
--   Guidelines on how to use the Data Management Tool to develop your plan: *Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.* <https://doi.org/10.5281/zenodo.7566971>
+-   Guidelines on how to use the Data Management Tool to develop your project data management plan: *Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.* <https://doi.org/10.5281/zenodo.7566971>
 
 -   Get started with the tool: <http://dmptool.org/>\
     *Make sure to create an account using your UCSB email!*
@@ -61,4 +61,5 @@ Ok, you have a plan, now what!?  **A data management plan should be seen as a li
 ## Further Reading Recommendations
 
 - Good overview of Data management concepts:  *Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala. (2023). Introduction to Research Data Management for Researchers. Data Curation Network* [Primer for Researchers on how to Manage Data](https://github.com/DataCurationNetwork/data-primers/blob/master/Primer%20for%20Researchers%20on%20How%20to%20Manage%20Data/Primer-for-researchers-on-how-to-manage-data.md#data-management-and-curation-principles) 
+- Good overview of the data lifecycle, including itemized checklist: <https://osf.io/d8fqh>
 
