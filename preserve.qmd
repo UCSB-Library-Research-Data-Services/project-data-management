@@ -6,12 +6,23 @@ title: "Archivng and preserving your data"
 As you are finalizing your project, and important step is going to archive your data in a publicly available repository (pending sensitivity and by non-disclosure agreements exceptions).
 
 
+## Documenting your work
+
+Are the raw data you used already publicly available? If so simply cite them, otherwise seek the necessary information to know if you could archive those data as well.
+
+
+Associated metadata and other documentation need to be developed and uploaded with the data.
+
 ## Choosing a data repository
 
-UCSB's institutional data repository [DRYAD](https://datadryad.org/stash) will be your default data repository. However discuss with your Faculty advisor to determine if other options could be appropriate for your project. 
+UCSB's institutional data repository [DRYAD](https://datadryad.org/stash) will be your default data repository. However we encourage your to discuss with your Faculty Advisor to determine if other data repository options specific to the your project topic could be more targeted to your project audience. 
+
 
 
 ## Choosing a license
+
+DRAYD is CC0
+
 
 
 

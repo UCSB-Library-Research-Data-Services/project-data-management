@@ -39,7 +39,7 @@ Here are a set of general questions that will help your team to think about the 
     i) Where will the data and metadata be stored after the project is completed? 
     i) Is there a subject-specific and/or open-access repository that is appropriate for the data? 
     
-One advantage to deposit your data in a data repository is that you can then get a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/) that will let you easily share and cite your data. Most of the data repository also track the number of views and downloads your data archive is getting.
+One advantage to depositing your data in a data repository is that you can then get a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/) that will let you easily share and cite your data. Most of the data repositories also track the number of views and downloads your data archive is getting.
 
 
 ## Data Management Plan Tool
