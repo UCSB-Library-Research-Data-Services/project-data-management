@@ -8,9 +8,9 @@ In a nutshell, **your goal as a Data Manager is to organize your team in a way t
 Having a plan to manage your data will save you from some potential painful hiccups and therefore save you time as your progress through your project data life cycle. In other words, it is time well spent to develop your data management plan and the earlier in your project, you have a good sense of how you are going to manage your data, the better. The team discussion necessary to develop your plan is as important as the plan itself since the questions you will have to answer will help you to think more about your data (what type, how much of it, how are you going to process it,...) and also define who is going to do what on your team.
 
 
-Your overarching goal is to archive and share your data in a publicly accessible data repository such as [Dryad](https://datadryad.org/stash) as your project is completing or important milestones are achieved. For you work to be reproducible, metadata and documentation needs to also be developed as well as the scripts you have developed for you analaysis. Here is an example of a previous group archive: <https://doi.org/10.25349/D97G9Z> -- especially look at the `README.md` describing the content.
+Your overarching goal is to archive and share your data in a publicly accessible data repository such as [Dryad](https://datadryad.org/stash) as your project is completed or important milestones are achieved. For your work to be reproducible, metadata and documentation need to also be developed as well as the scripts you have developed for your analysis. Here is an example of a previous group archive: <https://doi.org/10.25349/D97G9Z> -- especially look at the `README.md` describing the content.
 
-Before writing your plan, we recommend you getting familiar with the [FAIR](https://www.go-fair.org/fair-principles/) and [CARE](https://www.gida-global.org/care) principles to guide your process.
+Before writing your plan, we recommend you get familiar with the [FAIR](https://www.go-fair.org/fair-principles/) and [CARE](https://www.gida-global.org/care) principles to guide your process.
 
 ![source: <https://www.gida-global.org/care>](images/be-FAIR-and-CARE.png)
 
