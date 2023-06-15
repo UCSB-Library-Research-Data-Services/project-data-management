@@ -34,7 +34,12 @@ Here are a set of general questions that will help your team to think about the 
 
 5. **Intellectual property and re-use**:  If data were collected from the client organization, does the group have the right to redistribute it? If so, are there any restrictions on redistribution? If the group created its data files, will it assign a Creative Commons license to its data? 
 
-6. **Data archiving and preservation**: Throughout the project, the group may produce a large number of files. At the end of the project, groups must submit data used in the project (except data protected by non-disclosure agreements) and associated metadata. Not all data needs to be saved. If another researcher wanted to replicate the group's work or re-use the group's data, what data and documentation would be required for them to do so? Where will the data and metadata be stored after the project is completed? Is there a subject-specific and/or open-access repository that is appropriate for the data?
+6. **Data archiving and preservation**: Throughout the project, the group may produce a large number of files. At the end of the project, groups must submit data produced by the project (except data protected by non-disclosure agreements) and when relevant raw data as well. Not all data needs to be saved. Here are some questions to ask yourselves:
+    i) If another researcher wanted to replicate the group's work or re-use the group's data, what data and documentation would be required for them to do so?  
+    i) Where will the data and metadata be stored after the project is completed? 
+    i) Is there a subject-specific and/or open-access repository that is appropriate for the data? 
+    
+One advantage to deposit your data in a data repository is that you can then get a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/) that will let you easily share and cite your data. Most of the data repository also track the number of views and downloads your data archive is getting.
 
 
 ## Data Management Plan Tool
