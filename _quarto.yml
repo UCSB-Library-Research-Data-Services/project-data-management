@@ -25,7 +25,8 @@ website:
     
 format:
   html:
-    theme: cosmo
+    theme: 
+      - rdsstyles.scss
     css: styles.css
     toc: true
 
