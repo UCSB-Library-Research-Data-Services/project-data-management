@@ -1,21 +1,33 @@
 ---
-title: "Archivng and preserving your data"
+title: "Archiving and preserving your data"
 ---
 
 
-As you are finalizing your project, and important step is going to archive your data in a publicly available repository (pending sensitivity and by non-disclosure agreements exceptions).
+As you are finalizing your project, an important task is going to archive your data in a publicly available repository (pending sensitivity and by non-disclosure agreements exceptions). There are a few important steps to take to make sure that your data can be reused by others and make your work more reproducible.
 
 
 ## Documenting your work
+
+To make your archiving process the most efficient, it is key to document your work as you progress through your project. If you do so, archiving your data will mostly be collecting existing information about the various parts of your project.
+
+### Metadata
 
 Are the raw data you used already publicly available? If so simply cite them, otherwise seek the necessary information to know if you could archive those data as well.
 
 
 Associated metadata and other documentation need to be developed and uploaded with the data.
 
+
+### README
+
+
+## Using open file formats
+
+
+
 ## Choosing a data repository
 
-UCSB's institutional data repository [DRYAD](https://datadryad.org/stash) will be your default data repository. However we encourage your to discuss with your Faculty Advisor to determine if other data repository options specific to the your project topic could be more targeted to your project audience. 
+UCSB's institutional data repository [DRYAD](https://datadryad.org/stash) will be your default data repository. However, we encourage you to discuss with your Faculty Advisor to determine if other data repository options specific to your project topic could be more targeted to your project audience. 
 
 
 
@@ -25,12 +37,3 @@ DRAYD is CC0
 
 
 
-
-## Preserving your scripts
-
-If you developed code to conduct your research you will want to upload it to a code repository such as GitHub. Once done, you will be able to link you code repository to your data archive in Dryad by adding the URL.
-
-
-## Preserving other scientific products
-
-Zeonod integration
