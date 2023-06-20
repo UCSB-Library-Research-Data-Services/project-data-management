@@ -52,7 +52,7 @@ There is a tool that you can use to guide your process: **the DMP Tool**. It is 
 
 </iframe>
 
--   Guidelines on how to use the Data Management Tool to develop your project data management plan: *Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.* <https://doi.org/10.5281/zenodo.7566971>
+-   Guidelines on how to develop your project data management plan using the DMP Tool: *Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.* <https://doi.org/10.5281/zenodo.7566971>
 
 -   Get started with the tool: <http://dmptool.org/>\
     *Make sure to create an account using your UCSB email!*
