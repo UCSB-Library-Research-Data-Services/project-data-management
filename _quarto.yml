@@ -26,6 +26,7 @@ website:
 format:
   html:
     theme: 
+      - spacelab
       - rdsstyles.scss
     css: styles.css
     toc: true
