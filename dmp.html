@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.427">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Good enough practices to manage your project data - Data Management Plan</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Good enough practices to manage your project data</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./dmp.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Planning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./manage.html" rel="" target="">
+ <span class="menu-text">Managing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./preserve.html" rel="" target="">
+ <span class="menu-text">Preserving</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About RDS</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/UCSB-Library-Research-Data-Services/project-data-management">
+            Website Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/UCSB-Library-Research-Data-Services/project-data-management/issues">
+            Report an issue
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#developing-your-data-management-plan-dmp" id="toc-developing-your-data-management-plan-dmp" class="nav-link active" data-scroll-target="#developing-your-data-management-plan-dmp">Developing your Data Management Plan (DMP)</a></li>
+  <li><a href="#data-management-plan-tool" id="toc-data-management-plan-tool" class="nav-link" data-scroll-target="#data-management-plan-tool">Data Management Plan Tool</a></li>
+  <li><a href="#using-your-data-management-plan" id="toc-using-your-data-management-plan" class="nav-link" data-scroll-target="#using-your-data-management-plan">Using your Data Management Plan</a></li>
+  <li><a href="#further-reading-recommendations" id="toc-further-reading-recommendations" class="nav-link" data-scroll-target="#further-reading-recommendations">Further Reading Recommendations</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Management Plan</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>In a nutshell, <strong>your goal as a Data Manager is to organize your team in a way that will let you document and preserve your work</strong> - including raw and derived data when possible. When delivering a project to a client, it is important to make sure the client can both understand and reuse the products (code, data, apps) you have developed. For those reasons more and more funders are requiring a data management plan as part of their proposal submission process and therefore it is a great skill to develop.</p>
+<p>Having a plan to manage your data will save you from some potential painful hiccups and therefore save you time as your progress through your project data life cycle. In other words, it is time well spent to develop your data management plan and the earlier in your project, you have a good sense of how you are going to manage your data, the better. The team discussion necessary to develop your plan is as important as the plan itself since the questions you will have to answer will help you to think more about your data (what type, how much of it, how are you going to process it,…) and also define who is going to do what on your team.</p>
+<p>Your overarching goal is to archive and share your data in a publicly accessible data repository such as <a href="https://datadryad.org/stash">Dryad</a> as your project is completed or important milestones are achieved. For your work to be reproducible, metadata and documentation need to also be developed as well as the scripts you have developed for your analysis. Here is an example of a previous group archive: <a href="https://doi.org/10.25349/D97G9Z" class="uri">https://doi.org/10.25349/D97G9Z</a> – especially look at the <code>README.md</code> describing the content.</p>
+<p>Before writing your plan, we recommend you get familiar with the <a href="https://www.go-fair.org/fair-principles/">FAIR</a> and <a href="https://www.gida-global.org/care">CARE</a> principles to guide your process.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/be-FAIR-and-CARE.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">source: <a href="https://www.gida-global.org/care" class="uri">https://www.gida-global.org/care</a></figcaption>
+</figure>
+</div>
+<section id="developing-your-data-management-plan-dmp" class="level2">
+<h2 class="anchored" data-anchor-id="developing-your-data-management-plan-dmp">Developing your Data Management Plan (DMP)</h2>
+<p>Here are a set of general questions that will help your team to think about the data and resources your will need along the data lifecycle of your project.</p>
+<ol type="1">
+<li><p><strong>Describing the research data</strong>: Provide a description of the data the group will collect or re-use, including the file types, data set size, the number of expected files or sets, content, and source of the data (creator and method of collection).</p>
+<ol type="i">
+<li>What data are needed?</li>
+<li>Are such data available?</li>
+<li>When and how will the data be acquired?</li>
+</ol></li>
+<li><p><strong>Data standards</strong>:</p>
+<ol type="i">
+<li>Are there any standard formats in the specific research field for managing or disseminating the data sets that have been identified (e.g., XML, ASCII, CSV, .shp, .gdb, GeoTIFF)?</li>
+<li>Who from the group will have responsibility for ensuring that data standards are properly applied and data are properly formatted?</li>
+</ol></li>
+<li><p><strong>Metadata</strong>: Metadata is documentation that helps make data sets reusable. Think about what details (metadata) someone would need in order to be able to understand and use these files. For example, perhaps a <code>readme.txt</code> file is necessary to explain variables, the structure of the files, etc. In addition, metadata should follow disciplinary standards, including ontologies and vocabularies. If applicable, describe how the group’s models, scripts, and/or workflows will be documented.</p></li>
+<li><p><strong>Data sharing and access</strong> The data may have significant value for other researchers beyond this project, and sharing this data is part of the group’s responsibility as members of the scientific community. Specify the extent to which data can be reused, including any access limitations. List any proprietary software that might be needed to read the files. If some data is not appropriate for sharing due to confidentiality, NDA, or disclosure risk, then describe that here.</p></li>
+<li><p><strong>Intellectual property and re-use</strong>: If data were collected from the client organization, does the group have the right to redistribute it? If so, are there any restrictions on redistribution? If the group created its data files, will it assign a Creative Commons license to its data?</p></li>
+<li><p><strong>Data archiving and preservation</strong>: Throughout the project, the group may produce a large number of files. At the end of the project, groups must submit data produced by the project (except data protected by non-disclosure agreements) and when relevant raw data as well. Not all data needs to be saved. Here are some questions to ask yourselves:</p>
+<ol type="i">
+<li>If another researcher wanted to replicate the group’s work or re-use the group’s data, what data and documentation would be required for them to do so?<br>
+</li>
+<li>Where will the data and metadata be stored after the project is completed?</li>
+<li>Is there a subject-specific and/or open-access repository that is appropriate for the data?</li>
+</ol></li>
+</ol>
+<p>One advantage to depositing your data in a data repository is that you can then get a <a href="https://www.doi.org/the-identifier/what-is-a-doi/">DOI</a> that will let you easily share and cite your data. Most of the data repositories also track the number of views and downloads your data archive is getting.</p>
+</section>
+<section id="data-management-plan-tool" class="level2">
+<h2 class="anchored" data-anchor-id="data-management-plan-tool">Data Management Plan Tool</h2>
+<p>There is a tool that you can use to guide your process: <strong>the DMP Tool</strong>. It is a little bit like an online form on steroids. Note that you do not have to use this tool for your project, but from our experience, it provides good guidance for this process.</p>
+<ul>
+<li>(Almost) everything in one page: <a href="https://www.library.ucsb.edu/sites/default/files/dls-n05-2022-dmptool-navy_0.pdf" class="uri">https://www.library.ucsb.edu/sites/default/files/dls-n05-2022-dmptool-navy_0.pdf</a></li>
+</ul>
+<iframe width="100%" height="1000" src="https://www.library.ucsb.edu/sites/default/files/dls-n05-2022-dmptool-navy_0.pdf">
+</iframe>
+<ul>
+<li><p>Guidelines on how to develop your project data management plan using the DMP Tool: <em>Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.</em> <a href="https://doi.org/10.5281/zenodo.7566971" class="uri">https://doi.org/10.5281/zenodo.7566971</a></p></li>
+<li><p>Get started with the tool: <a href="http://dmptool.org/" class="uri">http://dmptool.org/</a><br>
+<em>Make sure to create an account using your UCSB email!</em></p></li>
+</ul>
+</section>
+<section id="using-your-data-management-plan" class="level2">
+<h2 class="anchored" data-anchor-id="using-your-data-management-plan">Using your Data Management Plan</h2>
+<p>Ok, you have a plan, now what!? <strong>A data management plan should be seen as a living document</strong> that you update as your project develops and data needs evolve. We thus recommend sharing this plan with all your team members and external partners when relevant. The DMP Tool has the capacity to share plans directly from the tool. If you do not choose to use it, we recommend choosing a file format that can be collectively edited and provide some versioning / track changes feature, such as Google Docs or other cloud-based storage and documents.</p>
+</section>
+<section id="further-reading-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading-recommendations">Further Reading Recommendations</h2>
+<ul>
+<li>Good overview of Data management concepts: <em>Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala. (2023). Introduction to Research Data Management for Researchers. Data Curation Network</em> <a href="https://github.com/DataCurationNetwork/data-primers/blob/master/Primer%20for%20Researchers%20on%20How%20to%20Manage%20Data/Primer-for-researchers-on-how-to-manage-data.md#data-management-and-curation-principles">Primer for Researchers on how to Manage Data</a></li>
+<li>Good overview of the data lifecycle, including itemized checklist: <a href="https://osf.io/d8fqh" class="uri">https://osf.io/d8fqh</a></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
