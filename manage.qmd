@@ -2,9 +2,9 @@
 title: "Managing your data"
 ---
 
+**Under development**
+
+
 Some tips to manage their data during their project
 
-Keep the raw data separated
-Log your data sources
-Adopt a Naming convention
-
+Keep the raw data separated Log your data sources Adopt a Naming convention
