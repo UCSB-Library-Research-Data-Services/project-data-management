@@ -3,12 +3,34 @@ title: "Archiving and preserving your data"
 ---
 
 
-As you are finalizing your project, an important task is going to archive your data in a publicly available repository (pending sensitivity and by non-disclosure agreements exceptions). There are a few important steps to take to make sure that your data can be reused by others and make your work more reproducible.
+As you are finalizing your project, an important task is to archive your data in a publicly available repository (pending sensitivity and by non-disclosure agreement exceptions). There are a few important steps to take to make sure that your data can be reused by others and make your work more reproducible.
+
+
+## What scientific products to preserve?
+
+It is often the first question that comes to mind: What should I include in my data archive. Generally speaking you want to preserve your work, so any data and analayses you conducted to come to the conclusions discussed in your report and other publications 
+
+### Raw data
+
+- often not re-obtainable
+- supports inspection, backtracing
+- contains information lost in aggregation process
+
+### Intermediate data
+
+- if has reusable value
+- especially cleaned-up versions of raw data!
+
+### Final products
+
+- including raw data behind graphs, maps, visualizations
+
+
 
 
 ## Documenting your work
 
-To make your archiving process the most efficient, it is key to document your work as you progress through your project. If you do so, archiving your data will mostly be collecting existing information about the various parts of your project.
+To make your archiving process the most efficient, it is key to document your work as you progress throughout your project. If you do so, archiving your data will mostly be collecting existing information about the various parts of your project.
 
 ### Metadata
 
