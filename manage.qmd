@@ -2,9 +2,66 @@
 title: "Managing your data"
 ---
 
-**Under development**
+While actively working on your project, there are several practices that can help you to manage you data in an efficient manner that will help you to collaborate with others (including your future self) and make your work more reproducible.
 
 
-Some tips to manage their data during their project
+## Track your data sources
 
-Keep the raw data separated Log your data sources Adopt a Naming convention
+As you are collecting your data, we strongly recommend that you keep track of where / by whom you got access to the data you will be using.  It can be a link to a data archive, official agency website, or contact information of a person. This data log can be developed using a spreadsheet that you can share with your team. The goal here is to make sure:
+
+- You can go back to the source of your data
+- Cite your data sources when you will archive your data
+- Ask potential clarifications you might need to correctly interpret the data
+- Inquiry for any data updates at a later date
+
+
+## Keep raw data raw
+
+During your data collection phase also make sure to create a dedicated folder to save the raw data version you just acquired. 
+
+If you are using a programmatic approach to process your data, make sure to only read the raw data and save any processed intermediate data products in a different folder. We actually recommend when possible to change the permissions on your raw data folder to read-only to avoid any accident.
+
+If you are using a software with GUI, we recommend you create a copy of your raw data in a 
+
+
+## Project organization
+
+
+
+## Adopt consitent naming convention
+
+Develop naming conventions for files and folder:
+
+- Avoid spaces (use underscores or dashes)
+- Avoid punctuation or special characters
+- Try to leverage alphabetical order (e.g. start with dates: 2020-05-08)
+- Use descriptive naming (lite metadata)
+- Use folders to structure/organize content
+- Keep it simple
+- Make it programmatically useful:
+    - Useful to select files (Wildcard *, regular expression)
+    - But don’t forget Humans need to read file names too!!
+
+### Try it:
+
+Which filename would be the most useful?
+
+- `06-2020-08-sensor2-plot1.csv`
+- `2020-05-08_light-sensor-1_plot-1.csv`
+- `Measurement 1.csv`
+- `2020-05-08-light-sensor-1-plot-2.csv`
+- `2020-05-08-windSensor1-plot3.csv`
+
+**The most important is to make it consistent!**
+
+A [good reference](https://speakerdeck.com/jennybc/how-to-name-files) on this topic from Jenny Bryan (Posit).
+
+
+## Backup your data
+
+
+
+## Comment your code
+
+
+## Version your code
