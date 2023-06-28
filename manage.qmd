@@ -75,17 +75,33 @@ A [good reference](https://speakerdeck.com/jennybc/how-to-name-files) on this to
 
 ## Backup your data
 
-<iframe width="100%" height="1000" src="https://www.library.ucsb.edu/sites/default/files/dls-n05-2022-dmptool-navy_0.pdf">
+Don't forget, things happen!!!
 
-</iframe>
+![](images/broken_laptop.png){width=70% fig-align="center"}
+
+To protect yourself against data loss we suggest you backup your data following the 3-2-1 rule:
+
+- Maintain **3** up-to-date copies of your data
+- In **2** different storage solutions
+- with **1** copy being off site or in the cloud
+
+![Source: [RDS Data Literacy Series](https://www.library.ucsb.edu/sites/default/files/dls-databackup-n06-2022-navy.pdf)](images/backup321.png)
+
+As a UCSB affiliate, you have access to cloud storage solutions such as Google Drive and Box and other departmental computing and storage resources. Check with your departmental IT Team!! 
+
+
+
 
 ## Making your work more reproducible  
 
 
 ### Analytical workflows
 
-Building analytical workflows or data pipelines empowers you to iterate quickly and integrate new information. It also enables others to build on your work: Your research is important – but arguably only when others can find it, make sense of it, and build from it. You’re constantly collaborating and most importantly with Future You, and also Future Us! Develop workflows in a mindset geared towards collaboration. ***Workflows are rarely linear! They are developed iteratively, and one of the most helpful things you can do is talk about them with your research team.***
+Building analytical workflows or data pipelines empowers you to iterate more quickly and integrate new information more easily. Say goodbye to copy-paste!! It also enables others to build on your work. Your research is important – but arguably only when others can find it, make sense of it, and build from it. You’re constantly collaborating and most importantly with Future You! Develop your workflows in a mindset geared towards collaboration. ***Workflows are rarely linear! They are developed iteratively, and one of the most helpful things you can do is talk about them with your research team.***
 
+![The tidy workflow, Source: R for Data Science](images/tidy-workflow.png)
+
+***Workflows are rarely linear! They are developed iteratively, and one of the most helpful things you can do is talk about them with your research team.***
 
 ### Code
 
