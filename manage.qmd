@@ -26,7 +26,7 @@ If you are using software with GUI, we recommend you create a "working copy" of 
 
 ## Project organization
 
-We recommend encapsulating your work in one project folder and organizing your file structure starting with three subfolders:
+We recommend encapsulating your work in one project folder. It will make it more portable when combine with the use of relative path and help you to keep the information centralized in one place. Here is a starting point for your file structure with three subfolders:
 
 - Data: where you will store your data with the following file structure
     - Input_data: to store the raw data you collected or/and are reusing
@@ -39,6 +39,9 @@ In the top-level folder, we also recommend you write a README to explain your pr
 
 
 ![Source: [RDS Data Literacy Series](https://www.library.ucsb.edu/sites/default/files/dls-n8-2021-projectfolder-navy.pdf)](images/project_organization.png)
+
+
+Of course each project is different so adapt this recommendations to your own project needs!!
 
 
 ## Adopt consistent naming convention
@@ -55,7 +58,7 @@ Develop naming conventions for files and folders:
     - Useful to select files (Wildcard *, regular expression)
     - But don’t forget Humans need to read file names too!!
 
-### Try it:
+#### Try it:
 
 Which filename would be the most useful?
 
