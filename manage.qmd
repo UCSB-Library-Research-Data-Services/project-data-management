@@ -41,7 +41,7 @@ In the top-level folder, we also recommend you write a README to explain your pr
 ![Source: [RDS Data Literacy Series](https://www.library.ucsb.edu/sites/default/files/dls-n8-2021-projectfolder-navy.pdf)](images/project_organization.png)
 
 
-Of course each project is different so adapt this recommendations to your own project needs!!
+Of course, each project is different so adapt these recommendations to your own project needs!!
 
 
 ## Adopt consistent naming convention
@@ -83,13 +83,11 @@ To protect yourself against data loss we suggest you backup your data following 
 
 - Maintain **3** up-to-date copies of your data
 - In **2** different storage solutions
-- with **1** copy being off site or in the cloud
+- with **1** copy being off-site or in the cloud
 
 ![Source: [RDS Data Literacy Series](https://www.library.ucsb.edu/sites/default/files/dls-databackup-n06-2022-navy.pdf)](images/backup321.png)
 
 As a UCSB affiliate, you have access to cloud storage solutions such as Google Drive and Box and other departmental computing and storage resources. Check with your departmental IT Team!! 
-
-
 
 
 ## Making your work more reproducible  
@@ -113,6 +111,4 @@ One great way to build such workflow from raw data to scientific outputs is to u
 - Centralize your data in shared computing resources or data repositories
 - Use version control software (e.g. git) rather than your own bookkeeping methods (goodbye `script_JM_03v5b.R`)
 - Code sharing and collaboration using code repository services (e.g. GitHub, GitLab, ...)
-
-
 
