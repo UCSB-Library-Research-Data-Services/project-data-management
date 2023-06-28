@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.427">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dmp.html" rel="" target="">
+    <a class="nav-link" href="./dmp.qmd" rel="" target="">
  <span class="menu-text">Planning</span></a>
   </li>  
   <li class="nav-item">
@@ -128,7 +128,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#track-your-data-sources" id="toc-track-your-data-sources" class="nav-link active" data-scroll-target="#track-your-data-sources">Track your data sources</a></li>
+  <li><a href="#keep-raw-data-raw" id="toc-keep-raw-data-raw" class="nav-link" data-scroll-target="#keep-raw-data-raw">Keep raw data raw</a></li>
+  <li><a href="#project-organization" id="toc-project-organization" class="nav-link" data-scroll-target="#project-organization">Project organization</a></li>
+  <li><a href="#adopt-consistent-naming-convention" id="toc-adopt-consistent-naming-convention" class="nav-link" data-scroll-target="#adopt-consistent-naming-convention">Adopt consistent naming convention</a></li>
+  <li><a href="#backup-your-data" id="toc-backup-your-data" class="nav-link" data-scroll-target="#backup-your-data">Backup your data</a></li>
+  <li><a href="#making-your-work-more-reproducible" id="toc-making-your-work-more-reproducible" class="nav-link" data-scroll-target="#making-your-work-more-reproducible">Making your work more reproducible</a>
+  <ul class="collapse">
+  <li><a href="#analytical-workflows" id="toc-analytical-workflows" class="nav-link" data-scroll-target="#analytical-workflows">Analytical workflows</a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -150,11 +165,125 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><strong>Under development</strong></p>
-<p>Some tips to manage their data during their project</p>
-<p>Keep the raw data separated Log your data sources Adopt a Naming convention</p>
+<p>While actively working on your project, there are several practices that can help you to manage your data in an efficient manner that will help you to collaborate with others (including your future self) and make your work more reproducible.</p>
+<section id="track-your-data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="track-your-data-sources">Track your data sources</h2>
+<p>As you are collecting your data, we strongly recommend that you keep track of where / by whom you got access to the data you will be using. It can be a link to a data archive, an official agency website, or the contact information of a person. This data log can be developed using a spreadsheet that you can share with your team. The goal here is to make sure:</p>
+<ul>
+<li>You can go back to the source of your data</li>
+<li>Cite your data sources when you will archive your data</li>
+<li>Ask for potential clarifications you might need to correctly interpret the data</li>
+<li>Inquiry for any data updates at a later date</li>
+</ul>
+</section>
+<section id="keep-raw-data-raw" class="level2">
+<h2 class="anchored" data-anchor-id="keep-raw-data-raw">Keep raw data raw</h2>
+<p>During your data collection phase also make sure to create a dedicated folder to save the raw data version you just acquired.</p>
+<p>If you are using a programmatic approach to process your data, make sure to only read the raw data and save any processed intermediate data products in a different folder. We recommend changing the permissions on your raw data folder to read-only to avoid any accidents.</p>
+<p>If you are using software with GUI, we recommend you create a “working copy” of your raw data in a separate folder and use those files as it is often very easy</p>
+</section>
+<section id="project-organization" class="level2">
+<h2 class="anchored" data-anchor-id="project-organization">Project organization</h2>
+<p>We recommend encapsulating your work in one project folder. It will make it more portable when combine with the use of relative path and help you to keep the information centralized in one place. Here is a starting point for your file structure with three subfolders:</p>
+<ul>
+<li>Data: where you will store your data with the following file structure
+<ul>
+<li>Input_data: to store the raw data you collected or/and are reusing</li>
+<li>Intermediate_data: to store any cleaned or merged data sets</li>
+<li>Analysis_data: any model analytical outputs that you computed</li>
+</ul></li>
+<li>Code or Scripts: you can store your scripts in this folder. You can keep everything within the folder using filename to organize it or create subfolders as needed</li>
+<li>Results: to store tables, graphs, reports, or any other scientific products you are producing</li>
+</ul>
+<p>In the top-level folder, we also recommend you write a README to explain your project, list the contributors and provide information on how to best navigate your project folder as well as a short description of the files it contains.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/project_organization.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Source: <a href="https://www.library.ucsb.edu/sites/default/files/dls-n8-2021-projectfolder-navy.pdf">RDS Data Literacy Series</a></figcaption>
+</figure>
+</div>
+<p>Of course each project is different so adapt this recommendations to your own project needs!!</p>
+</section>
+<section id="adopt-consistent-naming-convention" class="level2">
+<h2 class="anchored" data-anchor-id="adopt-consistent-naming-convention">Adopt consistent naming convention</h2>
+<p>Develop naming conventions for files and folders:</p>
+<ul>
+<li>Avoid spaces (use underscores or dashes)</li>
+<li>Avoid punctuation or special characters</li>
+<li>Try to leverage alphabetical order (e.g.&nbsp;start with dates: 2020-05-08)</li>
+<li>Use descriptive naming (lite metadata)</li>
+<li>Use folders to structure/organize content</li>
+<li>Keep it simple</li>
+<li>Make it programmatically useful:
+<ul>
+<li>Useful to select files (Wildcard *, regular expression)</li>
+<li>But don’t forget Humans need to read file names too!!</li>
+</ul></li>
+</ul>
+<section id="try-it" class="level4">
+<h4 class="anchored" data-anchor-id="try-it">Try it:</h4>
+<p>Which filename would be the most useful?</p>
+<ul>
+<li><code>06-2020-08-sensor2-plot1.csv</code></li>
+<li><code>2020-05-08_light-sensor-1_plot-1.csv</code></li>
+<li><code>Measurement 1.csv</code></li>
+<li><code>2020-05-08-light-sensor-1-plot-2.csv</code></li>
+<li><code>2020-05-08-windSensor1-plot3.csv</code></li>
+</ul>
+<p><strong><em>Remember, the most important is to make it consistent!</em></strong></p>
+<p>A <a href="https://speakerdeck.com/jennybc/how-to-name-files">good reference</a> on this topic from Jenny Bryan (Posit).</p>
+</section>
+</section>
+<section id="backup-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="backup-your-data">Backup your data</h2>
+<p>Don’t forget, things happen!!!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/broken_laptop.png" class="img-fluid figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>To protect yourself against data loss we suggest you backup your data following the 3-2-1 rule:</p>
+<ul>
+<li>Maintain <strong>3</strong> up-to-date copies of your data</li>
+<li>In <strong>2</strong> different storage solutions</li>
+<li>with <strong>1</strong> copy being off site or in the cloud</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/backup321.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Source: <a href="https://www.library.ucsb.edu/sites/default/files/dls-databackup-n06-2022-navy.pdf">RDS Data Literacy Series</a></figcaption>
+</figure>
+</div>
+<p>As a UCSB affiliate, you have access to cloud storage solutions such as Google Drive and Box and other departmental computing and storage resources. Check with your departmental IT Team!!</p>
+</section>
+<section id="making-your-work-more-reproducible" class="level2">
+<h2 class="anchored" data-anchor-id="making-your-work-more-reproducible">Making your work more reproducible</h2>
+<section id="analytical-workflows" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-workflows">Analytical workflows</h3>
+<p>Building analytical workflows or data pipelines empowers you to iterate more quickly and integrate new information more easily. Say goodbye to copy-paste!! It also enables others to build on your work. Your research is important – but arguably only when others can find it, make sense of it, and build from it. You’re constantly collaborating and most importantly with Future You! Develop your workflows in a mindset geared towards collaboration. <strong><em>Workflows are rarely linear! They are developed iteratively, and one of the most helpful things you can do is talk about them with your research team.</em></strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/tidy-workflow.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The tidy workflow, Source: R for Data Science</figcaption>
+</figure>
+</div>
+<p><strong><em>Workflows are rarely linear! They are developed iteratively, and one of the most helpful things you can do is talk about them with your research team.</em></strong></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code</h3>
+<p>One great way to build such workflow from raw data to scientific outputs is to use scripts and leave copy-pasting behind. Here are a few things to consider:</p>
+<ul>
+<li>Comment your code… too much is not a thing</li>
+<li>Notebooks like Jupyter and RMarkdown can help you to be more explicit by integrating outputs/results along with your code</li>
+<li>Keep things in sync in a centralized place online to avoid duplication (data, scripts, code…)</li>
+<li>Centralize your data in shared computing resources or data repositories</li>
+<li>Use version control software (e.g.&nbsp;git) rather than your own bookkeeping methods (goodbye <code>script_JM_03v5b.R</code>)</li>
+<li>Code sharing and collaboration using code repository services (e.g.&nbsp;GitHub, GitLab, …)</li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
