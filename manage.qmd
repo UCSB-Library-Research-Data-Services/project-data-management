@@ -57,6 +57,7 @@ Develop naming conventions for files and folders:
 - Make it programmatically useful:
     - Useful to select files (Wildcard *, regular expression)
     - But don’t forget Humans need to read file names too!!
+    - Tip: leverage the used of `_` and `-` to make your filename readable by both Humans and machines!
 
 #### Try it:
 
