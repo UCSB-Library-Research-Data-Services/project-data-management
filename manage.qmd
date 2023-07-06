@@ -2,31 +2,31 @@
 title: "Managing your data"
 ---
 
-While actively working on your project, there are several practices that can help you to manage your data in an efficient manner that will help you to collaborate with others (including your future self) and make your work more reproducible.
+While actively working on your project, there are several practices that can help you to manage your data in an efficient manner that will help you to collaborate with others (including your future self!) and make your work more reproducible.
 
 
 ## Track your data sources
 
-As you are collecting your data, we strongly recommend that you keep track of where / by whom you got access to the data you will be using.  It can be a link to a data archive, an official agency website, or the contact information of a person. This data log can be developed using a spreadsheet that you can share with your team. The goal here is to make sure:
+As you collect your data, if using pre-existing data sources, we strongly recommend that you keep track of where/by whom you accessed the data you will use.  It can be a link to a data archive, an official agency website, or the contact information of a person. This data log can be developed using a spreadsheet that you can share with your team. The goal here is to make sure you can:
 
-- You can go back to the source of your data
-- Cite your data sources when you will archive your data
-- Ask for potential clarifications you might need to correctly interpret the data
+- Go back to the original source and the right version of the data
+- Correctly attribute/cite the data sources when you project
+- Reach out to data creators and ask for potential clarifications you might need to correctly interpret the data
 - Inquiry for any data updates at a later date
 
 
 ## Keep raw data raw
 
-During your data collection phase also make sure to create a dedicated folder to save the raw data version you just acquired. 
+During the data collection phase, also make sure to create a dedicated folder to save the raw data version you just acquired. 
 
-If you are using a programmatic approach to process your data, make sure to only read the raw data and save any processed intermediate data products in a different folder. We recommend changing the permissions on your raw data folder to read-only to avoid any accidents.
+If you are using a programmatic approach to process your data (e.g., API), make sure to only read the raw data and save any processed intermediate data products in a different folder. We recommend changing the permissions on your raw data folder to read-only to avoid any unexpected incidents.
 
-If you are using software with GUI, we recommend you create a "working copy" of your raw data in a separate folder and use those files as it is often very easy  
+If you are accessing the data using a Graphical User Interface (GUI), we recommend you create a "working copy" of your raw data in a separate folder and use those files as it is often very easy to accidentally overwrite it.  
 
 
 ## Project organization
 
-We recommend encapsulating your work in one project folder. It will make it more portable when combine with the use of relative path and help you to keep the information centralized in one place. Here is a starting point for your file structure with three subfolders:
+We recommend encapsulating your project into one folder. It will make it more portable when combined with a [relative path](https://www.educative.io/answers/absolute-vs-relative-path) and help you keep the information centralized in one place. Here is a starting point for your file structure with three subfolders:
 
 - Data: where you will store your data with the following file structure
     - Input_data: to store the raw data you collected or/and are reusing
@@ -41,23 +41,23 @@ In the top-level folder, we also recommend you write a README to explain your pr
 ![Source: [RDS Data Literacy Series](https://www.library.ucsb.edu/sites/default/files/dls-n8-2021-projectfolder-navy.pdf)](images/project_organization.png)
 
 
-Of course, each project is different so adapt these recommendations to your own project needs!!
+Of course, each project is different, so adapt these recommendations to your own project needs!
 
 
-## Adopt consistent naming convention
+## Adopt a consistent naming convention
 
 Develop naming conventions for files and folders:
 
 - Avoid spaces (use underscores or dashes)
 - Avoid punctuation or special characters
-- Try to leverage alphabetical order (e.g. start with dates: 2020-05-08)
+- Try to leverage alphabetical order (e.g., start with dates: 2020-05-08)
 - Use descriptive naming (lite metadata)
 - Use folders to structure/organize content
 - Keep it simple
 - Make it programmatically useful:
     - Useful to select files (Wildcard *, regular expression)
     - But don’t forget Humans need to read file names too!!
-    - Tip: leverage the used of `_` and `-` to make your filename readable by both Humans and machines!
+    - Tip: leverage the use of `_` and `-` to make your filename readable by both Humans and machines!
 
 #### Try it:
 
@@ -80,7 +80,7 @@ Don't forget, things happen!!!
 
 ![](images/broken_laptop.png){width=70% fig-align="center"}
 
-To protect yourself against data loss we suggest you backup your data following the 3-2-1 rule:
+To protect yourself against data loss, we suggest you backup your data following the 3-2-1 rule:
 
 - Maintain **3** up-to-date copies of your data
 - In **2** different storage solutions
@@ -88,7 +88,7 @@ To protect yourself against data loss we suggest you backup your data following 
 
 ![Source: [RDS Data Literacy Series](https://www.library.ucsb.edu/sites/default/files/dls-databackup-n06-2022-navy.pdf)](images/backup321.png)
 
-As a UCSB affiliate, you have access to cloud storage solutions such as Google Drive and Box and other departmental computing and storage resources. Check with your departmental IT Team!! 
+As a UCSB affiliate, you can access cloud storage solutions such as Google Drive and Box and other departmental computing and storage resources. Check with your departmental IT Team!
 
 
 ## Making your work more reproducible  
@@ -96,7 +96,7 @@ As a UCSB affiliate, you have access to cloud storage solutions such as Google D
 
 ### Analytical workflows
 
-Building analytical workflows or data pipelines empowers you to iterate more quickly and integrate new information more easily. Say goodbye to copy-paste!! It also enables others to build on your work. Your research is important – but arguably only when others can find it, make sense of it, and build from it. You’re constantly collaborating and most importantly with Future You! Develop your workflows in a mindset geared towards collaboration. ***Workflows are rarely linear! They are developed iteratively, and one of the most helpful things you can do is talk about them with your research team.***
+Building analytical workflows or data pipelines empowers you to iterate more quickly and integrate new information more easily. Say goodbye to copy-paste!! It also enables others to build on your work. Your research is important – but arguably only when others can find it, make sense of it, and build from it. You’re constantly collaborating and, most importantly, with your **Future self!**. Develop your workflows in a mindset geared towards collaboration. ***Workflows are rarely linear! 
 
 ![The tidy workflow, Source: R for Data Science](images/tidy-workflow.png)
 
@@ -106,10 +106,10 @@ Building analytical workflows or data pipelines empowers you to iterate more qui
 
 One great way to build such workflow from raw data to scientific outputs is to use scripts and leave copy-pasting behind. Here are a few things to consider: 
 
-- Comment your code... too much is not a thing
+- Comment your code...too much is not a thing
 - Notebooks like Jupyter and RMarkdown can help you to be more explicit by integrating outputs/results along with your code
 - Keep things in sync in a centralized place online to avoid duplication (data, scripts, code…)
 - Centralize your data in shared computing resources or data repositories
-- Use version control software (e.g. git) rather than your own bookkeeping methods (goodbye `script_JM_03v5b.R`)
-- Code sharing and collaboration using code repository services (e.g. GitHub, GitLab, ...)
+- Use version control software (e.g., Git) rather than your own bookkeeping methods (goodbye `script_JM_03v5b.R`)
+- Code sharing and collaboration using code repository services (e.g., GitHub, GitLab, ...)
 
