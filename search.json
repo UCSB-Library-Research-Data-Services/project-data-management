@@ -138,5 +138,19 @@
     "title": "Archiving and preserving your data",
     "section": "Submitting to DRYAD",
     "text": "Submitting to DRYAD\nYou are now ready to start the submission process!! Here we are going to use DRYAD as an example.\n\nBefore logging into Dryad, you must create a free ORCID. ORCIDs are free, unique identifiers for yourself. Think of it as a Social Security Number for Researchers that, this time, you can share. Create your account here.\nThen you can login and should land on a page as below. Click on the Start new dataset button\n\n\n\nYou will now have to fill out the web form to provide project-level information, starting with the Preliminary information section. Select other or not applicable as your submission is not related to a journal publication.\n\n\n\nFill the Basic information section\n\nTitle: Note it can be different than your project a describing as much as possible your data archive content\nAuthors: enter all your teammates\nResearch domain: Choose the more relevant to your project\nFunding: check the No Funding received box or enter any external funding you received for this project\nAbstract: enter a short description of your work\n\nData Description section:\n\nKeywords: add relevant keywords and please make sure to add the Bren project keyword BrenMESMProject\nMethods: describe the methods you used for your analysis\nUsage notes: you can add any software you used to conduct your project here. please provide the version number along with the software name\n\nRelated work section:\n\nThis is where you can link your data repository on GitHub with your data archive. Select Software as Work type and paste the URL to your repository. Do not forget to also provide the necessary information on the README on your code repository. Once your data archive is published on DRYAD, do not forget to add the link to README on GitHub, linking the resources both ways.\n\n\n\nDRYAD full Submission and publication guidelines: https://datadryad.org/stash/submission_process"
+  },
+  {
+    "objectID": "preserve.html#data-curation-process",
+    "href": "preserve.html#data-curation-process",
+    "title": "Archiving and preserving your data",
+    "section": "Data Curation process",
+    "text": "Data Curation process\nOK, you have submitted your data and its documentation to the DRYAD (or others) data repository, what is next!? Most of the data repository will have some kind of data curation process, mainly a series of checks that will ensure that you provided all the necessary documentation to make your research work understandable to others. Some of those checks might be done automatically (leveraging metadata standards for example), some others will be done by data curators associated with the data repository. In the coming days of your submission to DRYAD, a curator will reach out to you with a list of items to improve. For example replacing and Excel spreadsheets (proprietary software) with csv files that can be more easily open, especially in several years from now. Adding more information about the raw data you used or clarifying their licensing, provide more details about your methodology. Once this feedback received, you will have to iterate through those recommendations as needed and resubmit your updated documentation and data. You can expect the curation process to take several days to potentially a few weeks. Therefore plan accordingly!!"
+  },
+  {
+    "objectID": "preserve.html#publication",
+    "href": "preserve.html#publication",
+    "title": "Archiving and preserving your data",
+    "section": "Publication",
+    "text": "Publication\nOnce the curation process is over, your data will be publish and made publicly available. Most of the data repository provide a DOI to reference your data archive. Use this DOI to share and cite your data archive in your project report and publications!!"
   }
 ]
