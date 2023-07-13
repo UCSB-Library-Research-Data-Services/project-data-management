@@ -2,12 +2,12 @@
 title: "Project Data Management"
 ---
 
-This website aims at helping graduate students conducting their first large project to plan and manage their data with a reproducible mindset.
+This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.
 
 We provide advice on:
 
 1.  How to develop your Data Management Plan (DMP)
-2.  How to manage and document your data to ease the preservation of your work, so others (including your future self) can reuse it.
-3.  How to preserve and share your data in a data repository
+2.  How to manage and document your data to ease the preservation of your work, so others (including future-you) can reuse it.
+3.  How to preserve and share your data using a data repository
 
 ![Research Data Management lifecycle; source: <https://osf.io/d8fqh>](images/data_lifecycle_rdm.png)
