@@ -16,13 +16,13 @@ Here are a few questions to ask yourself to determine if you should refer in you
 
 1. The **raw data is already publicly accessible**, and the hosting solution (website, FTP server, etc.) seems well maintained (ideally providing a recommended citation) 
 
-> => Document the website or process you used to collect the data and when you accessed/downloaded the data you used. Try also to determine if a specific version number is associated with the data you used.*
+=> Document the website or process you used to collect the data and when you accessed/downloaded the data you used. Try also to determine if a pecific version number is associated with the data you used.*
 
 2. The raw data is **not** publicly accessible
 
 Note that we are not talking about data under a non-disclosure agreement (NDA) here but more about data with an unclear reuse status or obtained by interactions with a person or an institution. For example, if the data you used were sent to you privately, then we recommend that you:
 
->-  inquire with your person of contact about the status of licensing and if they would be willing to let you share those data publicly. You might face resistance at first, so take the time to explain why you think it is valuable to your work to also share those data sets.
+-  inquire with your person of contact about the status of licensing and if they would be willing to let you share those data publicly. You might face resistance at first, so take the time to explain why you think it is valuable to your work to also share those data sets.
 -  if, in the end, it is not possible to share the data, please still describe the data in your documentation and list the contact information (person or institution) to inquire about this data set.  
 
 
