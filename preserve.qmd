@@ -147,3 +147,19 @@ You are now ready to start the submission process!! Here we are going to use DRY
 
 ***DRYAD full Submission and publication guidelines: <https://datadryad.org/stash/submission_process>***
 
+
+## Data Curation process
+
+OK, you have submitted your data and its documentation to the DRYAD (or others) data repository, what is next!? Most of the data repository will have some kind of data curation process, mainly a series of checks that will ensure that you provided all the necessary documentation to make your research work understandable to others. Some of those checks might be done automatically (leveraging metadata standards for example), some others will be done by data curators associated with the data repository. In the coming days of your submission to DRYAD, a curator will reach out to you with a list of items to improve. For example replacing and Excel spreadsheets (proprietary software) with csv files that can be more easily open, especially in several years from now. Adding more information about the raw data you used or clarifying their licensing, provide more details about your methodology. Once this feedback received, you will have to iterate through those recommendations as needed and resubmit your updated documentation and data.  You can expect the curation process to take several days to potentially a few weeks. Therefore plan accordingly!! 
+
+
+## Publication
+
+Once the curation process is over, your data will be publish and made publicly available. Most of the data repository provide a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/) to reference your data archive. Use this DOI to share and cite your data archive in your project report and publications!!
+
+
+
+
+
+
+
