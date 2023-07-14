@@ -12,7 +12,8 @@ _If you have comments or feedback, you can use this repository [issues](https://
 
 
 ### Authors:
-Julien Brun, Renata Curty and Greg Janée, Research Data Services (RDS), UC Santa Barbara Library
+
+Julien Brun, Renata Curty, and Greg Janée, Research Data Services (RDS), UC Santa Barbara Library
 
 
 <div>
