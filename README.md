@@ -1,6 +1,6 @@
-# Good enough practices to manage and preserve your project data
+# Good enough practices to manage and preserve your group project data
 
-This website aims at helping graduate students conducting their first data-driven project to plan and manage their data with a reproducible mindset.
+This website aims to help graduate students conduct their first data-driven project to plan and manage their data with a reproducible mindset.
 
 We provide advice on:
 
