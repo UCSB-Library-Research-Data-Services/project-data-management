@@ -1,92 +1,77 @@
-This README.txt file was generated on YYYY-MM-DD by NAME \<help text is
-included in angle brackets, and can be deleted before saving\>
+This README.txt file was generated on YYYY-MM-DD by NAME \<help text is included in angle brackets, and can be deleted before saving\>
 
-**GENERAL INFORMATION**
+## GENERAL INFORMATION
 
-1\. Title of the Project:
+1. Title of the Project:
 
-2\. Author Information 
+2. Author Information
 
-A. Principal Investigator Contact Information
-Name: Institution: Address: Email:
+A. Principal Investigator Contact Information Name: Institution: Address: Email:
 
-B. Associate or Co-investigator Contact Information Name: Institution:
-Address: Email:
+B. Associate or Co-investigator Contact Information Name: Institution: Address: Email:
 
 C. Alternate Contact Information Name: Institution: Address: Email:
 
-3\. Date of data collection or obtaining (single date, range, approximate date)
-\<suggested format YYYY-MM-DD. If multiple data files, list it accordingly\>:
+3. Date of data collection or obtaining (single date, range, approximate date) \<suggested format YYYY-MM-DD. If multiple data files, list it accordingly\>:
 
-4\. Geographic location of data collection: \<latitude, longitude, or
-city/region, State, Country, as appropriate. Again, if multiple data sources, specify accordingly\>:
+4. Geographic location of data collection: \<latitude, longitude, or city/region, State, Country, as appropriate. Again, if multiple data sources, specify accordingly\>:
 
-5\. Information about funding sources that supported the collection of
-the data:
+5. Information about funding sources that supported the collection of the data:
 
-**SHARING/ACCESS INFORMATION**
 
-1\. Licenses/restrictions placed on the data: 
+## SHARING/ACCESS INFORMATION
 
-2\. Links to publications that cite or use the data:
+1. Licenses/restrictions placed on the data:
 
-3\. Links to other publicly accessible locations of the data:
+2. Links to publications that cite or use the data:
 
-4\. Links/relationships to ancillary data sets: \<any supplementary data sources that support analysis or classification of the datasets, eg., plant taxonomy table.)\>
+3. Links to other publicly accessible locations of the data:
 
-5\. Was data derived from another source? If yes, list
-source(s): \<list citations to original sources\> 
+4. Links/relationships to ancillary data sets: \<any supplementary data sources that support analysis or classification of the datasets, eg., plant taxonomy table.)\>
 
-6\. Recommended citation for the project:
+5. Was data derived from another source? If yes, list source(s): \<list citations to original sources\>
 
-**DATA & FILE OVERVIEW**
+6. Recommended citation for the project:
 
-1\. File List: \<list all files (or folders, as appropriate for dataset
-organization) contained in the dataset, with a brief description of their content\>
 
-2\. Relationship between files, if important:
+## DATA & FILE OVERVIEW
 
-3\. Additional related data collected that was not included in the
-current data package:
+1. File List: \<list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description of their content\>
 
-4\. Are there multiple versions of the dataset? \<A. If yes, name
-of file(s) that was updated: i. Why was the file updated? ii. When was
-the file updated?\>
+2. Relationship between files, if important:
 
-**METHODOLOGICAL INFORMATION**
+3. Additional related data collected that was not included in the current data package:
 
-1\. Description of methods used for collection/generation of data:
-\<Include links or references to publications or other documentation
-containing experimental design or protocols used in data collection\>
+4. Are there multiple versions of the dataset? \<A. If yes, name of file(s) that was updated: i. Why was the file updated? ii. When was the file updated?\>
 
-2\. Methods for processing the data: \<describe how the submitted data
-were generated from the raw or collected data\>
 
-3\. Instrument- or software-specific information needed to interpret the
-data: \<include full name and version of software, and any necessary
-packages or libraries needed to run scripts\>
+## METHODOLOGICAL INFORMATION
 
-4\. Standards and calibration information, if appropriate:
+1. Description of methods used for collection/generation of data: \<Include links or references to publications or other documentation containing experimental design or protocols used in data collection\>
 
-5\. Environmental/experimental conditions:
+2. Methods for processing the data: \<describe how the submitted data were generated from the raw or collected data\>
 
-6\. Describe any quality-assurance procedures performed on the data:
+3. Instrument- or software-specific information needed to interpret the data: \<include full name and version of software, and any necessary packages or libraries needed to run scripts\>
 
-7\. People involved with sample collection, processing, analysis and/or
-submission:
+4. Standards and calibration information, if appropriate:
 
-**DATA-SPECIFIC INFORMATION FOR:** 
+5. Environmental/experimental conditions:
 
-\[FILENAME\] \<repeat this section for
-each dataset, folder or file, as appropriate\>
+6. Describe any quality-assurance procedures performed on the data:
 
-1\. Number of variables:
+7. People involved with sample collection, processing, analysis and/or submission:
 
-2\. Number of cases/rows:
 
-3\. Variable List: \<list variable name(s), description(s), unit(s)and
-value labels as appropriate for each\>
+## DATA-SPECIFIC INFORMATION FOR:
 
-4\. Missing data codes: \<list code/symbol and definition\>
+\[FILENAME\] \<repeat this section for each dataset, folder or file, as appropriate\>
 
-5\. Specialized formats or other abbreviations used:
+1. Number of variables:
+
+2. Number of cases/rows:
+
+3. Variable List: \<list variable name(s), description(s), unit(s)and value labels as appropriate for each\>
+
+4. Missing data codes: \<list code/symbol and definition\>
+
+5. Specialized formats or other abbreviations used:
