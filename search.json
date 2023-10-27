@@ -95,7 +95,42 @@
     "href": "templates/README-Template-EDS213.html",
     "title": "Good enough practices to manage your project data",
     "section": "",
-    "text": "This README.txt file was generated on YYYY-MM-DD by NAME &lt;help text is included in angle brackets, and can be deleted before saving&gt;\nGENERAL INFORMATION\n1. Title of the Project:\n2. Author Information\nA. Principal Investigator Contact Information Name: Institution: Address: Email:\nB. Associate or Co-investigator Contact Information Name: Institution: Address: Email:\nC. Alternate Contact Information Name: Institution: Address: Email:\n3. Date of data collection or obtaining (single date, range, approximate date) &lt;suggested format YYYY-MM-DD. If multiple data files, list it accordingly&gt;:\n4. Geographic location of data collection: &lt;latitude, longitude, or city/region, State, Country, as appropriate. Again, if multiple data sources, specify accordingly&gt;:\n5. Information about funding sources that supported the collection of the data:\nSHARING/ACCESS INFORMATION\n1. Licenses/restrictions placed on the data:\n2. Links to publications that cite or use the data:\n3. Links to other publicly accessible locations of the data:\n4. Links/relationships to ancillary data sets: &lt;any supplementary data sources that support analysis or classification of the datasets, eg., plant taxonomy table.)&gt;\n5. Was data derived from another source? If yes, list source(s): &lt;list citations to original sources&gt;\n6. Recommended citation for the project:\nDATA & FILE OVERVIEW\n1. File List: &lt;list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description of their content&gt;\n2. Relationship between files, if important:\n3. Additional related data collected that was not included in the current data package:\n4. Are there multiple versions of the dataset? &lt;A. If yes, name of file(s) that was updated: i. Why was the file updated? ii. When was the file updated?&gt;\nMETHODOLOGICAL INFORMATION\n1. Description of methods used for collection/generation of data: &lt;Include links or references to publications or other documentation containing experimental design or protocols used in data collection&gt;\n2. Methods for processing the data: &lt;describe how the submitted data were generated from the raw or collected data&gt;\n3. Instrument- or software-specific information needed to interpret the data: &lt;include full name and version of software, and any necessary packages or libraries needed to run scripts&gt;\n4. Standards and calibration information, if appropriate:\n5. Environmental/experimental conditions:\n6. Describe any quality-assurance procedures performed on the data:\n7. People involved with sample collection, processing, analysis and/or submission:\nDATA-SPECIFIC INFORMATION FOR:\n[FILENAME] &lt;repeat this section for each dataset, folder or file, as appropriate&gt;\n1. Number of variables:\n2. Number of cases/rows:\n3. Variable List: &lt;list variable name(s), description(s), unit(s)and value labels as appropriate for each&gt;\n4. Missing data codes: &lt;list code/symbol and definition&gt;\n5. Specialized formats or other abbreviations used:"
+    "text": "This README.txt file was generated on YYYY-MM-DD by NAME &lt;help text is included in angle brackets, and can be deleted before saving&gt;"
+  },
+  {
+    "objectID": "templates/README-Template-EDS213.html#general-information",
+    "href": "templates/README-Template-EDS213.html#general-information",
+    "title": "Good enough practices to manage your project data",
+    "section": "GENERAL INFORMATION",
+    "text": "GENERAL INFORMATION\n\nTitle of the Project:\nAuthor Information\n\nA. Principal Investigator Contact Information Name: Institution: Address: Email:\nB. Associate or Co-investigator Contact Information Name: Institution: Address: Email:\nC. Alternate Contact Information Name: Institution: Address: Email:\n\nDate of data collection or obtaining (single date, range, approximate date) &lt;suggested format YYYY-MM-DD. If multiple data files, list it accordingly&gt;:\nGeographic location of data collection: &lt;latitude, longitude, or city/region, State, Country, as appropriate. Again, if multiple data sources, specify accordingly&gt;:\nInformation about funding sources that supported the collection of the data:"
+  },
+  {
+    "objectID": "templates/README-Template-EDS213.html#sharingaccess-information",
+    "href": "templates/README-Template-EDS213.html#sharingaccess-information",
+    "title": "Good enough practices to manage your project data",
+    "section": "SHARING/ACCESS INFORMATION",
+    "text": "SHARING/ACCESS INFORMATION\n\nLicenses/restrictions placed on the data:\nLinks to publications that cite or use the data:\nLinks to other publicly accessible locations of the data:\nLinks/relationships to ancillary data sets: &lt;any supplementary data sources that support analysis or classification of the datasets, eg., plant taxonomy table.)&gt;\nWas data derived from another source? If yes, list source(s): &lt;list citations to original sources&gt;\nRecommended citation for the project:"
+  },
+  {
+    "objectID": "templates/README-Template-EDS213.html#data-file-overview",
+    "href": "templates/README-Template-EDS213.html#data-file-overview",
+    "title": "Good enough practices to manage your project data",
+    "section": "DATA & FILE OVERVIEW",
+    "text": "DATA & FILE OVERVIEW\n\nFile List: &lt;list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description of their content&gt;\nRelationship between files, if important:\nAdditional related data collected that was not included in the current data package:\nAre there multiple versions of the dataset? &lt;A. If yes, name of file(s) that was updated: i. Why was the file updated? ii. When was the file updated?&gt;"
+  },
+  {
+    "objectID": "templates/README-Template-EDS213.html#methodological-information",
+    "href": "templates/README-Template-EDS213.html#methodological-information",
+    "title": "Good enough practices to manage your project data",
+    "section": "METHODOLOGICAL INFORMATION",
+    "text": "METHODOLOGICAL INFORMATION\n\nDescription of methods used for collection/generation of data: &lt;Include links or references to publications or other documentation containing experimental design or protocols used in data collection&gt;\nMethods for processing the data: &lt;describe how the submitted data were generated from the raw or collected data&gt;\nInstrument- or software-specific information needed to interpret the data: &lt;include full name and version of software, and any necessary packages or libraries needed to run scripts&gt;\nStandards and calibration information, if appropriate:\nEnvironmental/experimental conditions:\nDescribe any quality-assurance procedures performed on the data:\nPeople involved with sample collection, processing, analysis and/or submission:"
+  },
+  {
+    "objectID": "templates/README-Template-EDS213.html#data-specific-information-for",
+    "href": "templates/README-Template-EDS213.html#data-specific-information-for",
+    "title": "Good enough practices to manage your project data",
+    "section": "DATA-SPECIFIC INFORMATION FOR:",
+    "text": "DATA-SPECIFIC INFORMATION FOR:\n[FILENAME] &lt;repeat this section for each dataset, folder or file, as appropriate&gt;\n\nNumber of variables:\nNumber of cases/rows:\nVariable List: &lt;list variable name(s), description(s), unit(s)and value labels as appropriate for each&gt;\nMissing data codes: &lt;list code/symbol and definition&gt;\nSpecialized formats or other abbreviations used:"
   },
   {
     "objectID": "about.html",
