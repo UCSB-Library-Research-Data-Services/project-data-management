@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/index.html</loc>
-    <lastmod>2023-10-25T20:23:27.383Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/manage.html</loc>
-    <lastmod>2023-10-25T20:23:26.335Z</lastmod>
+    <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/preserve.html</loc>
+    <lastmod>2023-10-27T16:48:05.240Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/plan.html</loc>
-    <lastmod>2023-10-25T20:23:25.159Z</lastmod>
+    <lastmod>2023-10-27T16:48:03.984Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/templates/README-Template-EDS213.html</loc>
+    <lastmod>2023-10-27T16:48:03.136Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/about.html</loc>
-    <lastmod>2023-10-25T20:23:25.811Z</lastmod>
+    <lastmod>2023-10-27T16:48:02.432Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/preserve.html</loc>
-    <lastmod>2023-10-25T20:23:27.071Z</lastmod>
+    <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/index.html</loc>
+    <lastmod>2023-10-27T16:48:03.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/UCSB-Library-Research-Data-Services/project-data-management/manage.html</loc>
+    <lastmod>2023-10-27T16:48:04.536Z</lastmod>
   </url>
 </urlset>
