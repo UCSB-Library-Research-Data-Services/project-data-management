@@ -34,5 +34,6 @@ format:
     toc: true
     include-after-body: footer.html
 
-editor: visual
+execute:
+  freeze: auto
 
