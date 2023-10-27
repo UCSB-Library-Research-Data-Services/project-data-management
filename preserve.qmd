@@ -113,7 +113,7 @@ README files are not new; they have been around computer-based projects since th
 Note that you should not feel limited to one README only. It is a great practice to also have READMEs in any subfolder/section of your project with complex organization and explanations on how to navigate the file structure or in which order files should be combined. 
 
 
-Our team has prepared a [README template](https://drive.google.com/drive/folders/1kuAUVQmmJP9Hw2LuAlujb_PeRFe--n1S) for your submission to Dryad. Note that some sections might not be relevant to your project, and you should simply delete those as you move through filling out this template.
+Our team has prepared a [README template](templates/README-Template-EDS213.md) for your submission to Dryad. Note that some sections might not be relevant to your project, and you should simply delete those as you move through filling out this template.
 
 
 ## Submitting to DRYAD
