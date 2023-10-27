@@ -91,48 +91,6 @@
     "text": "Further Reading Recommendations\n\nGood overview of Data management concepts: Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala. (2023). Introduction to Research Data Management for Researchers. Data Curation Network Primer for Researchers on how to Manage Data\nGood overview of the data lifecycle, including itemized checklist: https://osf.io/d8fqh"
   },
   {
-    "objectID": "templates/README-Template-EDS213.html",
-    "href": "templates/README-Template-EDS213.html",
-    "title": "Good enough practices to manage your project data",
-    "section": "",
-    "text": "This README.md file was generated on YYYY-MM-DD by NAME &lt;help text is included in angle brackets, and can be deleted before saving&gt;"
-  },
-  {
-    "objectID": "templates/README-Template-EDS213.html#general-information",
-    "href": "templates/README-Template-EDS213.html#general-information",
-    "title": "Good enough practices to manage your project data",
-    "section": "GENERAL INFORMATION",
-    "text": "GENERAL INFORMATION\n\nTitle of the Project:\nAuthor Information\n\nA. Principal Investigator Contact Information Name: Institution: Address: Email:\nB. Associate or Co-investigator Contact Information Name: Institution: Address: Email:\nC. Alternate Contact Information Name: Institution: Address: Email:\n\nDate of data collection or obtaining (single date, range, approximate date) &lt;suggested format YYYY-MM-DD. If multiple data files, list it accordingly&gt;:\nGeographic location of data collection: &lt;latitude, longitude, or city/region, State, Country, as appropriate. Again, if multiple data sources, specify accordingly&gt;:\nInformation about funding sources that supported the collection of the data:"
-  },
-  {
-    "objectID": "templates/README-Template-EDS213.html#sharingaccess-information",
-    "href": "templates/README-Template-EDS213.html#sharingaccess-information",
-    "title": "Good enough practices to manage your project data",
-    "section": "SHARING/ACCESS INFORMATION",
-    "text": "SHARING/ACCESS INFORMATION\n\nLicenses/restrictions placed on the data:\nLinks to publications that cite or use the data:\nLinks to other publicly accessible locations of the data:\nLinks/relationships to ancillary data sets: &lt;any supplementary data sources that support analysis or classification of the datasets, eg., plant taxonomy table.)&gt;\nWas data derived from another source? If yes, list source(s): &lt;list citations to original sources&gt;\nRecommended citation for the project:"
-  },
-  {
-    "objectID": "templates/README-Template-EDS213.html#data-file-overview",
-    "href": "templates/README-Template-EDS213.html#data-file-overview",
-    "title": "Good enough practices to manage your project data",
-    "section": "DATA & FILE OVERVIEW",
-    "text": "DATA & FILE OVERVIEW\n\nFile List: &lt;list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description of their content&gt;\nRelationship between files, if important:\nAdditional related data collected that was not included in the current data package:\nAre there multiple versions of the dataset? &lt;A. If yes, name of file(s) that was updated: i. Why was the file updated? ii. When was the file updated?&gt;"
-  },
-  {
-    "objectID": "templates/README-Template-EDS213.html#methodological-information",
-    "href": "templates/README-Template-EDS213.html#methodological-information",
-    "title": "Good enough practices to manage your project data",
-    "section": "METHODOLOGICAL INFORMATION",
-    "text": "METHODOLOGICAL INFORMATION\n\nDescription of methods used for collection/generation of data: &lt;Include links or references to publications or other documentation containing experimental design or protocols used in data collection&gt;\nMethods for processing the data: &lt;describe how the submitted data were generated from the raw or collected data&gt;\nInstrument- or software-specific information needed to interpret the data: &lt;include full name and version of software, and any necessary packages or libraries needed to run scripts&gt;\nStandards and calibration information, if appropriate:\nEnvironmental/experimental conditions:\nDescribe any quality-assurance procedures performed on the data:\nPeople involved with sample collection, processing, analysis and/or submission:"
-  },
-  {
-    "objectID": "templates/README-Template-EDS213.html#data-specific-information-for",
-    "href": "templates/README-Template-EDS213.html#data-specific-information-for",
-    "title": "Good enough practices to manage your project data",
-    "section": "DATA-SPECIFIC INFORMATION FOR:",
-    "text": "DATA-SPECIFIC INFORMATION FOR:\n[FILENAME] &lt;repeat this section for each dataset, folder or file, as appropriate&gt;\n\nNumber of variables:\nNumber of cases/rows:\nVariable List: &lt;list variable name(s), description(s), unit(s)and value labels as appropriate for each&gt;\nMissing data codes: &lt;list code/symbol and definition&gt;\nSpecialized formats or other abbreviations used:"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About RDS",
