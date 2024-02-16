@@ -19,7 +19,7 @@ As you collect your data, if using pre-existing data sources, we strongly recomm
 
 During the data collection phase, also make sure to create a dedicated folder to save the raw data version you just acquired. 
 
-If you are using a programmatic approach to process your data (e.g., API), make sure to only read the raw data and save any processed intermediate data products in a different folder. We recommend changing the permissions on your raw data folder to read-only to avoid any unexpected incidents.
+If you are using a programmatic approach to aquire your data (e.g., API), make sure to only read the raw data and save any processed intermediate data products in a different folder. We recommend changing the permissions on your raw data folder to read-only to avoid any unexpected incidents.
 
 If you are accessing the data using a Graphical User Interface (GUI), we recommend you create a "working copy" of your raw data in a separate folder and use those files as it is often very easy to accidentally overwrite it.  
 
