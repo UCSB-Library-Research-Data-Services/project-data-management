@@ -1,1 +1,1 @@
-Sitemap: https://github.com/UCSB-Library-Research-Data-Services/project-data-management/sitemap.xml
+Sitemap: https://UCSB-Library-Research-Data-Services.github.io/project-data-management/sitemap.xml

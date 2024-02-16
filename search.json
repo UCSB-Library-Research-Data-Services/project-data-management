@@ -56,6 +56,13 @@
     "text": "Publication\nOnce the curation process is over, your data will be publish and made publicly available. Most of the data repository provide a DOI to reference your data archive. Use this DOI to share and cite your data archive in your project report and publications!!"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Data Management",
+    "section": "",
+    "text": "This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.\nWe provide advice on:\n\nHow to develop your Data Management Plan (DMP)\nHow to manage and document your data to ease the preservation of your work, so others (including future-you) can reuse it.\nHow to preserve and share your data using a data repository\n\n\n\n\nResearch Data Management lifecycle; source: https://osf.io/d8fqh"
+  },
+  {
     "objectID": "plan.html",
     "href": "plan.html",
     "title": "Data Management Plan",
@@ -98,13 +105,6 @@
     "text": "Research Data Services (RDS) helps UCSB researchers manage and preserve their research data through:\n\nConsultations\nLong-term engagements\nInstructional workshops.\n\nOur team offers support across the research data lifecycle, from pre-project planning to post-project archival, connecting researchers with both locally- and externally-provided curation services. Our goal is to ensure that all research data is well-described, FAIR (Findable, Accessible, Interoperable, Reusable), and sustainably preservable, and that researchers receive scholarly credit for sharing and publishing data.\nContact us if you have any questions: rds@library.ucsb.edu"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Project Data Management",
-    "section": "",
-    "text": "This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.\nWe provide advice on:\n\nHow to develop your Data Management Plan (DMP)\nHow to manage and document your data to ease the preservation of your work, so others (including future-you) can reuse it.\nHow to preserve and share your data using a data repository\n\n\n\n\nResearch Data Management lifecycle; source: https://osf.io/d8fqh"
-  },
-  {
     "objectID": "manage.html",
     "href": "manage.html",
     "title": "Managing your data",
@@ -123,7 +123,7 @@
     "href": "manage.html#keep-raw-data-raw",
     "title": "Managing your data",
     "section": "Keep raw data raw",
-    "text": "Keep raw data raw\nDuring the data collection phase, also make sure to create a dedicated folder to save the raw data version you just acquired.\nIf you are using a programmatic approach to process your data (e.g., API), make sure to only read the raw data and save any processed intermediate data products in a different folder. We recommend changing the permissions on your raw data folder to read-only to avoid any unexpected incidents.\nIf you are accessing the data using a Graphical User Interface (GUI), we recommend you create a “working copy” of your raw data in a separate folder and use those files as it is often very easy to accidentally overwrite it."
+    "text": "Keep raw data raw\nDuring the data collection phase, also make sure to create a dedicated folder to save the raw data version you just acquired.\nIf you are using a programmatic approach to aquire your data (e.g., API), make sure to only read the raw data and save any processed intermediate data products in a different folder. We recommend changing the permissions on your raw data folder to read-only to avoid any unexpected incidents.\nIf you are accessing the data using a Graphical User Interface (GUI), we recommend you create a “working copy” of your raw data in a separate folder and use those files as it is often very easy to accidentally overwrite it."
   },
   {
     "objectID": "manage.html#project-organization",
