@@ -1,5 +1,19 @@
 ---
 title: "Project Data Management"
+author:
+  - name: Julien Brun
+    url: https://brunj7.github.io/
+    orcid: 0000-0002-7751-6238
+  - name: Renata Curty
+    url: https://www.library.ucsb.edu/staff/renata-curty
+    orcid: 0000-0002-4615-6030
+  - name: Greg Janée
+    url: https://www.library.ucsb.edu/staff/greg-janee
+    orcid: 0000-0001-8785-0021
+date: last-modified
+citation: 
+  url: https://ucsb-library-research-data-services.github.io/project-data-management/
+categories: [data-management, data-science, data-preservation, reproducible-science]
 ---
 
 This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.
