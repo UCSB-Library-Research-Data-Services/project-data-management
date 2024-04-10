@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About RDS",
+    "section": "",
+    "text": "Research Data Services (RDS) helps UCSB researchers manage and preserve their research data through:\n\nConsultations\nLong-term engagements\nInstructional workshops.\n\nOur team offers support across the research data lifecycle, from pre-project planning to post-project archival, connecting researchers with both locally- and externally-provided curation services. Our goal is to ensure that all research data is well-described, FAIR (Findable, Accessible, Interoperable, Reusable), and sustainably preservable, and that researchers receive scholarly credit for sharing and publishing data.\nContact us if you have any questions: rds@library.ucsb.edu"
+  },
+  {
     "objectID": "preserve.html",
     "href": "preserve.html",
     "title": "Archiving and preserving your data",
@@ -56,13 +63,6 @@
     "text": "Publication\nOnce the curation process is over, your data will be publish and made publicly available. Most of the data repository provide a DOI to reference your data archive. Use this DOI to share and cite your data archive in your project report and publications!!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Project Data Management",
-    "section": "",
-    "text": "This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.\nWe provide advice on:\n\nHow to develop your Data Management Plan (DMP)\nHow to manage and document your data to ease the preservation of your work, so others (including future-you) can reuse it.\nHow to preserve and share your data using a data repository\n\n\n\n\nResearch Data Management lifecycle; source: https://osf.io/d8fqh"
-  },
-  {
     "objectID": "plan.html",
     "href": "plan.html",
     "title": "Data Management Plan",
@@ -81,7 +81,7 @@
     "href": "plan.html#data-management-plan-tool",
     "title": "Data Management Plan",
     "section": "Data Management Plan Tool",
-    "text": "Data Management Plan Tool\nThere is a tool that you can use to guide your process: the DMP Tool. It is a little bit like an online form on steroids. Note that you do not have to use this tool for your project, but from our experience, it provides good guidance for this process.\n\n(Almost) everything in one page: https://www.library.ucsb.edu/sites/default/files/dls-n05-2022-dmptool-navy_0.pdf\n\n\n\n\nGuidelines on developing your project data management plan using the DMP Tool: Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo. https://doi.org/10.5281/zenodo.7566971\nGet started with the tool: http://dmptool.org/\nMake sure to create an account using your UCSB email!"
+    "text": "Data Management Plan Tool\nThere is a tool that you can use to guide your process: the DMP Tool. It is a little bit like an online form on steroids. Note that you do not have to use this tool for your project, but from our experience, it provides good guidance for this process.\n\n(Almost) everything in one page: https://perma.cc/3HFE-6X7U\n\n\n\n\nGuidelines on developing your project data management plan using the DMP Tool: Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo. https://doi.org/10.5281/zenodo.7566971\nGet started with the tool: http://dmptool.org/\nMake sure to create an account using your UCSB email!"
   },
   {
     "objectID": "plan.html#using-your-data-management-plan",
@@ -98,11 +98,11 @@
     "text": "Further Reading Recommendations\n\nGood overview of Data management concepts: Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala. (2023). Introduction to Research Data Management for Researchers. Data Curation Network Primer for Researchers on how to Manage Data\nGood overview of the data lifecycle, including itemized checklist: https://osf.io/d8fqh"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About RDS",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Data Management",
     "section": "",
-    "text": "Research Data Services (RDS) helps UCSB researchers manage and preserve their research data through:\n\nConsultations\nLong-term engagements\nInstructional workshops.\n\nOur team offers support across the research data lifecycle, from pre-project planning to post-project archival, connecting researchers with both locally- and externally-provided curation services. Our goal is to ensure that all research data is well-described, FAIR (Findable, Accessible, Interoperable, Reusable), and sustainably preservable, and that researchers receive scholarly credit for sharing and publishing data.\nContact us if you have any questions: rds@library.ucsb.edu"
+    "text": "This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.\nWe provide advice on:\n\nHow to develop your Data Management Plan (DMP)\nHow to manage and document your data to ease the preservation of your work, so others (including future-you) can reuse it.\nHow to preserve and share your data using a data repository\n\n\n\n\nResearch Data Management lifecycle; source: https://osf.io/d8fqh"
   },
   {
     "objectID": "manage.html",
