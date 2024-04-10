@@ -102,7 +102,7 @@
     "href": "index.html",
     "title": "Project Data Management",
     "section": "",
-    "text": "This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.\nWe provide advice on:\n\nHow to develop your Data Management Plan (DMP)\nHow to manage and document your data to ease the preservation of your work, so others (including future-you) can reuse it.\nHow to preserve and share your data using a data repository\n\n\n\n\nResearch Data Management lifecycle; source: https://osf.io/d8fqh"
+    "text": "This website aims at helping graduate students conducting their first data-intensive project to plan and manage their data with a reproducible mindset.\nWe provide advice on:\n\nHow to develop your Data Management Plan (DMP)\nHow to manage and document your data to ease the preservation of your work, so others (including future-you) can reuse it.\nHow to preserve and share your data using a data repository\n\n\n\n\nResearch Data Management lifecycle; source: https://osf.io/d8fqh\n\n\n\n\n\nCitationBibTeX citation:@online{brun2024,\n  author = {Brun, Julien and Curty, Renata and Janée, Greg},\n  title = {Project {Data} {Management}},\n  date = {2024-04-10},\n  url = {https://ucsb-library-research-data-services.github.io/project-data-management/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBrun, Julien, Renata Curty, and Greg Janée. 2024. “Project Data\nManagement.” April 10, 2024. https://ucsb-library-research-data-services.github.io/project-data-management/."
   },
   {
     "objectID": "manage.html",
