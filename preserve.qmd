@@ -7,7 +7,6 @@ As you finalize your project, an important task is to archive your data in a pub
 
 Your general philosophy when preparing the preservation of your scientific products should be: ***Document what you used and preserve what you produced***
 
-See below for more information.
 
 <hr>
 
