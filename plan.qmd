@@ -51,7 +51,7 @@ _One advantage to depositing your data in a data repository is that you can get 
 
 ### Want to know more?
 
--   More extensive guidelines on developing your project data management plan using: *Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.* <https://doi.org/10.5281/zenodo.7566971>
+-   More extensive guidelines on developing your project data management plan: *Renata G Curty. (2023). DMP Recommendations (DCC Template). Zenodo.* <https://doi.org/10.5281/zenodo.7566971>
 
 
 ## Data Management Plan Tool
