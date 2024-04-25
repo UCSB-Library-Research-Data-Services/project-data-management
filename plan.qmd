@@ -28,7 +28,7 @@ Below is a set of questions that will help your team think about the data and re
     i)  What data are needed?
     ii) Are such data available?
     iii) When and how will the data be acquired?
-    iv) Who will be doing what
+    iv) Who will be doing what?
 
 2.  **Data formats**:
 
