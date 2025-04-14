@@ -152,7 +152,7 @@ You are now ready to start the submission process!! Here we are going to use DRY
 
 ![](images/dryad_related-work.png)
 
-***DRYAD full Submission and publication guidelines: <https://datadryad.org/stash/submission_process>***
+***DRYAD full Submission and publication guidelines: <https://datadryad.org/submission_process>***
 
 
 ## Data curation process
