@@ -128,7 +128,9 @@ You are now ready to start the submission process!! Here we are going to use DRY
 ![](images/dryad_submission-start.png)
 
 - You will now have to fill out the web form to provide project-level informationfollowing the checklist preserented in the left panel
-![](images/dryad_checklist.png)
+
+
+  ![](images/dryad_checklist.png){width=25%}
 
 - Fill the _Basic information_ section
     + _Title_: Note it can be different than your project a describing as much as possible your data archive content
